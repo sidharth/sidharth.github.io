@@ -6802,6 +6802,14 @@ h1 {
   font-size: 150%;
   font-weight: 100;
 }
+.social-icons a {
+  text-decoration: none;
+  color: inherit;
+}
+.social-icons a:hover {
+  color: #337ab7;
+  transition: all 0.25s ease-in-out;
+}
 .email {
   font-family: "Roboto Slab", serif;
 }
