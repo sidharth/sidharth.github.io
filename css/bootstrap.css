@@ -6804,11 +6804,14 @@ h1 {
 }
 .social-icons a {
   text-decoration: none;
-  color: inherit;
+  color: #fff;
 }
 .social-icons a:hover {
   color: #337ab7;
   transition: all 0.25s ease-in-out;
+}
+.social-icons #resume {
+  color: #fff;
 }
 .email {
   font-family: "Roboto Slab", serif;
@@ -6841,6 +6844,20 @@ h1 {
   padding: 4em 0;
   background: repeating-linear-gradient(45deg, #000000, #000000 10px, #131313 10px, #131313 40px);
 }
+#resume {
+  display: none;
+  color: #eeeeee !important;
+  border: 1px solid #eeeeee;
+  transition: all 0.5s ease;
+}
+#resume span {
+  line-height: 5em;
+  padding: 2.5em;
+}
+#resume:hover {
+  background: #ffffff;
+  color: #337ab7;
+}
 footer {
   display: none;
   margin: 2em;
@@ -6852,5 +6869,12 @@ footer {
   display: none;
   border-radius: 100%;
   border: 10px solid #337ab7;
+}
+#link-resume {
+  color: inherit;
+}
+#link-resume:hover {
+  text-decoration: none;
+  color: #337ab7;
 }
 /*# sourceMappingURL=bootstrap.css.map */

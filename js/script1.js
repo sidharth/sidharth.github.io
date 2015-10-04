@@ -9,6 +9,8 @@ $('document').ready(function(){
 				});
 				$('.fa').fadeIn('slow');
 				$('.email').fadeIn('slow');
+				$('#resume').fadeIn('slow');
+				$('#resume').css('display','inline-block')
 		});
 	});
 })
