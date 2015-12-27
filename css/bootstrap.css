@@ -6833,6 +6833,9 @@ h1 {
   font-size: 1.1em;
   font-style: italic;
 }
+.work-image {
+  max-width: 100%;
+}
 #projects,
 #work {
   display: none;
