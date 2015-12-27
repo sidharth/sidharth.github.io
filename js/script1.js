@@ -5,6 +5,7 @@ $('document').ready(function(){
 				$('#projects').fadeIn('slow');
 				$('#dp').fadeIn('slow',function(){
 					$('#work').fadeIn('slow');
+					$('#miscellaneous').fadeIn('slow');
 					$('footer').fadeIn('slow');
 				});
 				$('.fa').fadeIn('slow');
@@ -13,4 +14,5 @@ $('document').ready(function(){
 				$('#resume').css('display','inline-block')
 		});
 	});
+
 })

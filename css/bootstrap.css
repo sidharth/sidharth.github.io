@@ -6836,9 +6836,22 @@ h1 {
 .work-image {
   max-width: 100%;
 }
-#projects,
 #work {
   display: none;
+  margin-top: 3em;
+}
+#work > div:nth-child(odd) {
+  background-color: #fafafa;
+}
+#work > div:nth-child(even) {
+  background-color: #f3f3f3;
+}
+#miscellaneous {
+  display: none;
+  margin-top: 3em;
+}
+#miscellaneous li {
+  text-align: left;
 }
 .project-item {
   margin: 1em 0;
