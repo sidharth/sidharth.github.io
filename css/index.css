@@ -1,0 +1,40 @@
+/* Structure */
+
+.container {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.container ul {
+  list-style-type: none;
+}
+
+.container ul li {
+  display: inline;
+  margin: 0.8em;
+}
+
+#profile-img {
+  border-radius: 100%;
+  width: 30%;
+}
+
+/* Typography */
+h1{
+  font-family: 'Montserrat';
+}
+
+p {
+  font-family: 'Inconsolata';
+  font-size : 1.8em;
+}
+
+#console {
+  color : #999;
+}
+
+ul {
+  font-size: 1.5em;
+  font-family: 'Inconsolata';
+  color : #0976D5;
+}

@@ -1,0 +1,44 @@
+ /* Structure */
+body {
+  font-family: 'Montserrat';
+}
+
+header {
+  text-align: right;
+}
+
+section.work {
+  margin-top: 2.5em;
+}
+
+.project {
+  margin-top: 4em;
+  line-height: 250%;
+}
+
+ /* Typography */
+
+.role {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.location {
+  color: #777;
+}
+
+.date {
+  color: #777;
+  font-style: italic;
+}
+
+.description {
+  font-family: 'Lato';
+  font-size: 1.5em;
+}
+
+footer {
+  font-family: 'Inconsolata';
+  line-height: 400%;
+  text-align: center;
+}
