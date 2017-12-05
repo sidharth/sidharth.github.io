@@ -13,6 +13,7 @@ section.work {
 
 .project {
   margin-top: 4em;
+  margin-bottom: 2em;
   line-height: 250%;
 }
 
@@ -34,7 +35,8 @@ section.work {
 
 .description {
   font-family: 'Lato';
-  font-size: 1.5em;
+  font-size: 1.2em;
+  color: #777;
 }
 
 footer {
