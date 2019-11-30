@@ -1,12 +1,12 @@
 var current = 0;
 var captionLength = 0;
 var captionList = [
-  'Hi',
-  'I enjoy quizzing',
-  'I play the guitar',
-  'I watch a lot of anime',
+  'Hi, I\'m Sidharth',
+  'I like building and hacking stuff',
+  'I ❤ public transit systems',
+  'I dabble with the guitar',
   'I like to play football',
-  'I like building stuff',]
+  ]
 
 
 $(document).ready(function() {
